@@ -1,0 +1,9 @@
+# 构建产物
+bin/
+obj/
+publish/
+
+# IDE / 系统
+.vs/
+*.user
+Thumbs.db

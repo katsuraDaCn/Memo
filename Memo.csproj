@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Memo</AssemblyName>
+    <AssemblyTitle>备忘录</AssemblyTitle>
+    <Product>备忘录</Product>
+    <Description>桌面备忘录：到点弹窗+声音提醒、开机启动、贪睡、重复备忘、桌面便签</Description>
+    <Version>1.0.0</Version>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="Memo.Data" />
+    <Using Include="Memo.Models" />
+    <Using Include="Memo.Services" />
+    <Using Include="System.Drawing.Drawing2D" />
+  </ItemGroup>
+
+</Project>
