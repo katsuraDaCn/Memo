@@ -11,6 +11,7 @@
     <Product>备忘录</Product>
     <Description>桌面备忘录：到点弹窗+声音提醒、开机启动、贪睡、重复备忘、桌面便签</Description>
     <Version>1.0.0</Version>
+    <ApplicationIcon>app.ico</ApplicationIcon>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
     <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
     <DebugType>none</DebugType>
